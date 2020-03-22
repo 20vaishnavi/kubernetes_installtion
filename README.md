@@ -1,5 +1,5 @@
 # kubernetes_installtion
-steps to do before installtion
+steps to do for installtion
 
 
 
