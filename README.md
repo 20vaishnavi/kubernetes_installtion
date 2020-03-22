@@ -26,7 +26,7 @@ $ yum install git -y
 
 
 
-$ https://github.com/20vaishnavi/kubernetes_installtion.git
+$ git clone https://github.com/20vaishnavi/kubernetes_installtion.git
 
 
 
