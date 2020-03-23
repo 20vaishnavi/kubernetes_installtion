@@ -35,7 +35,7 @@ $ git clone https://github.com/20vaishnavi/kubernetes_installtion.git
 
 
 
-$ cd kubernetes_installation
+$ cd kubernetes_installtion
 
 
 
