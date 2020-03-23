@@ -6,6 +6,7 @@ systemctl start docker
 systemctl enable docker
 systemctl restart kubelet
 systemctl enable kubelet
+kubedeam init
 mkdir -p $HOME/.kube
 sudo cp -i /etc/kubernetes/admin.conf $HOME/.kube/config
 sudo chown $(id -u):$(id -g) $HOME/.kube/config
