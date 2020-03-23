@@ -43,11 +43,6 @@ $ cd kubernetes_installation
 
 
 
-
-$ cp kubernetes.repo /etc/yum.repos.d/kubernetes.repo
-
-
-
 $ sh kubernetes_installtion.sh
 
 
