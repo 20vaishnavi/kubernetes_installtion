@@ -1,3 +1,4 @@
+cp kubernetes.repo /etc/yum.repos.d/kube.repo
 swapoff -a
 yum repolist
 yum install kubeadm docker -y
