@@ -1,8 +1,11 @@
 cp kubernetes.repo /etc/yum.repos.d/kube.repo
 swapoff -a
-yum repolist
-yum install kubeadm docker -y
 systemctl stop firewalld
+yum repolist -y 
+yum install kubeadm -y
+yum install -y yum-utils
+yum-config-manager --add-repo https://download.docker.com/linux/centos/docker-ce.repo
+yum install docker-ce docker-ce-cli containerd.io -y
 systemctl start docker
 systemctl enable docker
 systemctl restart kubelet
